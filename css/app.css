@@ -86,7 +86,6 @@ img {
     font-size: 35px;
     text-align: center;
     line-height: 50px;
-    display: none;
 }
 
 .discount {
@@ -110,21 +109,28 @@ img {
     padding: 5px;
 }
 
-a:hover ~ .heart{
-    display: block;
-}
-
 .hover-image {
     position: absolute;
     left: 0;
     display: none;
 }
 
-a:hover ~ .hover-image {
-    display: block;
-    
+.article_image:hover {
+    content: url(../img/1b.webp);
 }
-    
+
+.details {
+    font-size: 20px;
+}
+
+.discounted-price {
+    color: red;
+}
+
+.price {
+    text-decoration-line: line-through;
+}
+
 /* debug */
 
 .debug .page-header_nav {
