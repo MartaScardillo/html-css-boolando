@@ -36,11 +36,6 @@ img {
     align-content: center;
 }
 
-.justify-center {
-    justify-content: between;
-}
-
-
 .page-header_list {
     display: inline-block;
 }
@@ -115,8 +110,28 @@ img {
     display: none;
 }
 
-.article_image:hover {
+.article_image1:hover {
     content: url(../img/1b.webp);
+}
+
+.article_image2:hover {
+    content: url(../img/2b.webp);
+}
+
+.article_image3:hover {
+    content: url(../img/3b.webp);
+}
+
+.article_image4:hover {
+    content: url(../img/4b.webp);
+}
+
+.article_image5:hover {
+    content: url(../img/5b.webp);
+}
+
+.article_image6:hover {
+    content: url(../img/6b.webp);
 }
 
 .details {
