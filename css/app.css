@@ -54,10 +54,16 @@ img {
     height: 20px;
 }
 
+.btn {
+    height: 20px;
+    display: inline-block;
+}
+
 /* debug */
 
 .debug .page-header_nav {
     background-color: blueviolet;
+    min-height: 70px;
 }
 
 .debug .container {
