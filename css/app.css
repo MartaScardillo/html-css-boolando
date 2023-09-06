@@ -14,6 +14,10 @@ ul, ol {
     list-style-type: none;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -43,9 +47,12 @@ ul, ol {
 .page-header_nav {
     position: fixed;
     width: 100%;
+    max-height: 50px;
 }
 
-
+.logo {
+    height: 20px;
+}
 
 /* debug */
 
@@ -60,5 +67,5 @@ ul, ol {
 
 .debug .row {
     background-color: cadetblue;
-    min-height: 50px;
+    min-height: 70px;
 }
