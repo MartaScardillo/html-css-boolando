@@ -73,13 +73,12 @@ img {
 }
 
 .article_image {
-    
+    position: relative;
 }
 
 .heart {
-    display: block;
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 0;
     background-color: white;
     width: 50px;
@@ -90,10 +89,42 @@ img {
     display: none;
 }
 
+.discount {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.green {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    background-color: green;
+    color: white;
+    margin-left: 15px;
+    padding: 5px;
+}
+
 a:hover ~ .heart{
     display: block;
 }
 
+.hover-image {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+a:hover ~ .hover-image {
+    display: block;
+    
+}
+    
 /* debug */
 
 .debug .page-header_nav {
