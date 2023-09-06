@@ -40,13 +40,16 @@ ul, ol {
     color: white;
 }
 
-
+.page-header_nav {
+    position: fixed;
+    width: 100%;
+}
 
 
 
 /* debug */
 
-.debug .page-header {
+.debug .page-header_nav {
     background-color: blueviolet;
 }
 
