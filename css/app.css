@@ -69,10 +69,29 @@ img {
 
 .article {
     margin-top: 100px;
+    position: relative;
 }
 
 .article_image {
     
+}
+
+.heart {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
+
+a:hover ~ .heart{
+    display: block;
 }
 
 /* debug */
